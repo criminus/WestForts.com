@@ -6,7 +6,7 @@
 // @website      https://www.westforts.com/
 // @include      http://*.the-west.*/game.php*
 // @include      https://*.the-west.*/game.php*
-// @namespace    https://greasyfork.org/users/8213
+// @namespace    https://github.com/criminus/
 // @downloadURL  https://github.com/criminus/WestForts.com/blob/main/westforts.com.js
 // @updateURL    https://github.com/criminus/WestForts.com/blob/main/westforts.com.js
 // ==/UserScript==
@@ -90,7 +90,7 @@ if (location.href.indexOf(".the-west.") != -1 && location.href.indexOf("game.php
                         var wfrightcss = jQuery('#westforts_link_div').css('right');
                         if (wfrightcss == '30px') {
                             if (confirm('A new version of WestForts.com import script is available, do you want to update?\n(You\'ll need to reload this page after the update)')) {
-                                window.location.href = "https://greasyfork.org/scripts/7357-westforts-com-import-link/code/WestFortscom%20Import%20Link.user.js"
+                                window.location.href = "https://github.com/criminus/WestForts.com/blob/main/westforts.com.js"
                             }
                         }
                     }
