@@ -7,8 +7,8 @@
 // @include      http://*.the-west.*/game.php*
 // @include      https://*.the-west.*/game.php*
 // @namespace    https://greasyfork.org/users/8213
-// @downloadURL  https://update.greasyfork.org/scripts/7357/WestFortscom%20Import%20Link.user.js
-// @updateURL    https://update.greasyfork.org/scripts/7357/WestFortscom%20Import%20Link.meta.js
+// @downloadURL  https://github.com/criminus/WestForts.com/blob/main/westforts.com.js
+// @updateURL    https://github.com/criminus/WestForts.com/blob/main/westforts.com.js
 // ==/UserScript==
 if (location.href.indexOf(".the-west.") != -1 && location.href.indexOf("game.php") != -1) {
     if (document.getElementById('westforts_js')) {
